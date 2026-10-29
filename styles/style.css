@@ -1,0 +1,91 @@
+*{
+  font-family: 'Work sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* HEADING */
+
+/* HERO-BANNER */
+
+#banner{
+  margin: 0 auto;
+  background: url("../images/banner/banner3.png");
+  height: 808px;
+  width: 1600px;
+  overflow: hidden;
+}
+.section-heading{
+  margin: 216px 230px 166px 845px;
+  width: 525px;
+  text-align: right;
+  font-weight:bold ;
+}
+.section-heading h1{
+  font-size: 65px;
+  font-weight: bold;
+  text-align: right;
+}
+.section-heading p{
+  font-weight: 400;
+  font-size: 16px;
+  margin:24px 0 32px 31px;
+  line-height: 26px;
+  color: #444343;
+}
+.btn{
+  color: #ffffff;
+  background-color: #F15B22;
+  padding: 21px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* BODY */
+
+#failures{
+  margin: 0 auto;
+  max-width: 1140px;
+  margin-top: 131px;
+  width: 67%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 87px;
+}
+.image-container{display: flex;vertical-align: middle;}
+.failure{width: 416px;padding-top: 239px;padding-bottom: 86px;}
+.failure h2{color: #151414;font-size: 40px;margin-bottom: 40px;}
+.failure p{line-height: 26px;color:#444343;margin-bottom: 16px;}
+.failure-list ul{list-style-type: none;display: flex;flex-direction: column;gap: 8px;color: #444343;}
+.green{color: #16D887;}
+
+/* THINGS I WANT TO LEARN / END / DEVELOP */
+
+#my-plans{margin: 0 auto;max-width: 1140px;margin-top: 130px;width: 71%;}
+.heading{font-size: 40px;color: #151414;font-weight: bold;margin-bottom: 50px;display: flex;justify-content: center;}
+.icon-container{display: flex;justify-content:space-around;}
+
+/* A GRADIENT BANNER */
+
+#gradient{margin: 0 auto;max-width: 1140px;height: 300px; margin-top: 130px;width: 71%;background: url(../images/gradient1.png),url(../images/watch.png);background-repeat: no-repeat;overflow: hidden;}
+.orange{width: 459px;margin: 59px 617px 59px 64px;overflow: hidden;}
+.orange h2{color: #ffffff;font-size: 40px;font-weight: bold;margin-bottom: 24px;}
+.orange button{padding: 21px 36px;color: #F15B22;border: none;border-radius: 5px;font-size: 20px;font-weight:600;cursor: pointer;}
+
+/* FOOTER SECTION */
+
+#footer{margin: 0 auto; margin-top: 130px;height: 577px;background-color: #151414;overflow: hidden;width: 1600px;}
+.footer-container{width: 71%;margin: 0 auto;display: flex;gap: 331px;margin-top: 130px;}
+.contact{width: 485px;}
+.contact h2{color: #f8f8f8;font-size: 45px;font-weight: bold;margin-bottom: 16px;}
+.contact p{color: #ffffff;line-height: 26px;margin-bottom: 24px;}
+.icon-container2{display: flex; gap: 18px; cursor: pointer;}
+.email{color: #ffffff;margin-bottom: 16px;}
+.number{color: #ffffff;margin-bottom: 32px;}
+.ending h2{color: #ffffff;font-size: 25px;font-weight: 600;margin-bottom: 31px;}
+.email2{width: 325px;padding: 21px 158px 22px 21px;background-color: #151414;border: none;border: 1px solid #f3f3f3;border-radius: 5px;font-size: 18px;margin-bottom: 16px;}
+.final-btn{color: #F15B22;padding: 20px 36px;border-radius: 5px;font-size: 20px;font-weight: 600;cursor: pointer;}
